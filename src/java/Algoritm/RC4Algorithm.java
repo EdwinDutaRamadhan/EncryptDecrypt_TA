@@ -12,7 +12,7 @@ import java.io.DataInputStream;
  */
 public class RC4Algorithm {
     public char[] rc4Algoritm(String plainteks, String keys, String logic){
-         int temp = 0;
+        int temp = 0;
         String ptext;
         String key;
         int s[] = new int[256];
